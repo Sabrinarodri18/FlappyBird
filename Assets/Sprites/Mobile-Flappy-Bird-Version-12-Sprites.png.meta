@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_0
+      name: Background-day
       rect:
         serializedVersion: 2
         x: 0
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_1
+      name: Backround-night
       rect:
         serializedVersion: 2
         x: 146
@@ -779,7 +779,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_30
+      name: Play
       rect:
         serializedVersion: 2
         x: 354
@@ -800,7 +800,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_31
+      name: Ranking
       rect:
         serializedVersion: 2
         x: 414
@@ -1220,15 +1220,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_51
+      name: CuboLaranja_2
       rect:
         serializedVersion: 2
         x: 0
         y: 29
         width: 26
         height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.53563523, y: 0.49420896}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1241,7 +1241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_52
+      name: CuboLaranja_1
       rect:
         serializedVersion: 2
         x: 28
@@ -1262,7 +1262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_53
+      name: CuboVerde_1
       rect:
         serializedVersion: 2
         x: 56
@@ -1283,7 +1283,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_54
+      name: CuboVerde_2
       rect:
         serializedVersion: 2
         x: 84
@@ -1304,7 +1304,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_55
+      name: BlueBird_2
       rect:
         serializedVersion: 2
         x: 115
@@ -1346,7 +1346,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_57
+      name: BlueBird_3
       rect:
         serializedVersion: 2
         x: 115
@@ -1409,7 +1409,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_60
+      name: RedBird_1
       rect:
         serializedVersion: 2
         x: 115
@@ -1493,7 +1493,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_64
+      name: RedBird_2
       rect:
         serializedVersion: 2
         x: 115
@@ -1556,7 +1556,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_67
+      name: RedBird_3
       rect:
         serializedVersion: 2
         x: 115
@@ -1619,7 +1619,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_70
+      name: MoedaPrata
       rect:
         serializedVersion: 2
         x: 112
@@ -1661,7 +1661,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_72
+      name: MoedaDourada
       rect:
         serializedVersion: 2
         x: 112
@@ -1703,7 +1703,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_74
+      name: YellowBird_1
       rect:
         serializedVersion: 2
         x: 3
@@ -1724,7 +1724,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_75
+      name: YellowBird_2
       rect:
         serializedVersion: 2
         x: 31
@@ -1745,7 +1745,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_76
+      name: YellowBird_3
       rect:
         serializedVersion: 2
         x: 59
@@ -1766,7 +1766,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_77
+      name: BlueBird_1
       rect:
         serializedVersion: 2
         x: 87
@@ -1860,8 +1860,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mobile-Flappy-Bird-Version-12-Sprites_0: -51687451
-      Mobile-Flappy-Bird-Version-12-Sprites_1: 2115885073
+      Background-day: -51687451
+      Backround-night: 2115885073
+      BlueBird_1: -1373757605
+      BlueBird_2: -1612274223
+      BlueBird_3: 144680695
+      CuboLaranja_1: 7498871
+      CuboLaranja_2: 1515224982
+      CuboVerde_1: -977224201
+      CuboVerde_2: -721546894
       Mobile-Flappy-Bird-Version-12-Sprites_10: -346805392
       Mobile-Flappy-Bird-Version-12-Sprites_11: 695001304
       Mobile-Flappy-Bird-Version-12-Sprites_12: 424332130
@@ -1884,8 +1891,6 @@ TextureImporter:
       Mobile-Flappy-Bird-Version-12-Sprites_28: 818871031
       Mobile-Flappy-Bird-Version-12-Sprites_29: 535263789
       Mobile-Flappy-Bird-Version-12-Sprites_3: -1612589236
-      Mobile-Flappy-Bird-Version-12-Sprites_30: -399063297
-      Mobile-Flappy-Bird-Version-12-Sprites_31: -1586860032
       Mobile-Flappy-Bird-Version-12-Sprites_32: 426569563
       Mobile-Flappy-Bird-Version-12-Sprites_33: 122587455
       Mobile-Flappy-Bird-Version-12-Sprites_34: 758832880
@@ -1907,40 +1912,35 @@ TextureImporter:
       Mobile-Flappy-Bird-Version-12-Sprites_49: 2095752722
       Mobile-Flappy-Bird-Version-12-Sprites_5: -392518507
       Mobile-Flappy-Bird-Version-12-Sprites_50: 1808212385
-      Mobile-Flappy-Bird-Version-12-Sprites_51: 1515224982
-      Mobile-Flappy-Bird-Version-12-Sprites_52: 7498871
-      Mobile-Flappy-Bird-Version-12-Sprites_53: -977224201
-      Mobile-Flappy-Bird-Version-12-Sprites_54: -721546894
-      Mobile-Flappy-Bird-Version-12-Sprites_55: -1612274223
       Mobile-Flappy-Bird-Version-12-Sprites_56: 913335392
-      Mobile-Flappy-Bird-Version-12-Sprites_57: 144680695
       Mobile-Flappy-Bird-Version-12-Sprites_58: 2017269675
       Mobile-Flappy-Bird-Version-12-Sprites_59: 396778527
       Mobile-Flappy-Bird-Version-12-Sprites_6: -840397777
-      Mobile-Flappy-Bird-Version-12-Sprites_60: -686437840
       Mobile-Flappy-Bird-Version-12-Sprites_61: -1157283194
       Mobile-Flappy-Bird-Version-12-Sprites_62: -767879429
       Mobile-Flappy-Bird-Version-12-Sprites_63: 992055952
-      Mobile-Flappy-Bird-Version-12-Sprites_64: -1543110381
       Mobile-Flappy-Bird-Version-12-Sprites_65: -1891359552
       Mobile-Flappy-Bird-Version-12-Sprites_66: 1684791311
-      Mobile-Flappy-Bird-Version-12-Sprites_67: -1093178406
       Mobile-Flappy-Bird-Version-12-Sprites_68: -1216601542
       Mobile-Flappy-Bird-Version-12-Sprites_69: 542664215
       Mobile-Flappy-Bird-Version-12-Sprites_7: -1993423183
-      Mobile-Flappy-Bird-Version-12-Sprites_70: -1244489494
       Mobile-Flappy-Bird-Version-12-Sprites_71: 211498964
-      Mobile-Flappy-Bird-Version-12-Sprites_72: 1154992103
       Mobile-Flappy-Bird-Version-12-Sprites_73: 504709402
-      Mobile-Flappy-Bird-Version-12-Sprites_74: 1174791782
-      Mobile-Flappy-Bird-Version-12-Sprites_75: 2018692226
-      Mobile-Flappy-Bird-Version-12-Sprites_76: 1360223620
-      Mobile-Flappy-Bird-Version-12-Sprites_77: -1373757605
       Mobile-Flappy-Bird-Version-12-Sprites_78: 1580718862
       Mobile-Flappy-Bird-Version-12-Sprites_79: -2034511214
       Mobile-Flappy-Bird-Version-12-Sprites_8: -7329547
       Mobile-Flappy-Bird-Version-12-Sprites_80: 1733855054
       Mobile-Flappy-Bird-Version-12-Sprites_9: 228623042
+      MoedaDourada: 1154992103
+      MoedaPrata: -1244489494
+      Play: -399063297
+      Ranking: -1586860032
+      RedBird_1: -686437840
+      RedBird_2: -1543110381
+      RedBird_3: -1093178406
+      YellowBird_1: 1174791782
+      YellowBird_2: 2018692226
+      YellowBird_3: 1360223620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
